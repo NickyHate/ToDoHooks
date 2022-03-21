@@ -1,4 +1,5 @@
 import ReactDOM from "react-dom";
-import ToDoList from "./components/ToDoList";
+import Main from "./layers/Main";
+import "./assets/stylesheets/main.scss"
 
-ReactDOM.render(<ToDoList/>, document.getElementById('root'));
+ReactDOM.render(<Main/>, document.getElementById('root'));
